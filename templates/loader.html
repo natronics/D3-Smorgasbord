@@ -1,0 +1,16 @@
+<div id="bar" class="span8">
+  <script src="/static/d3/barchart.d3.js"></script>
+  <script>
+    var data = [0];
+    var bchart = new BarChart("#bar", 920, 200);
+
+    function reload () {
+        \$.getJSON('data.json?r=1', function(d) {
+            bchart.update(d, {"domain": [0,55]});
+        });
+    };
+
+    reload();
+  </script>
+</div>
+<div class="span2 pull-right"><button class="btn btn-small" type="button" onclick="reload()" >Refresh</button></div>

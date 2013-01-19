@@ -1,0 +1,12 @@
+$def with (data)
+<div id="bar">
+    <script src="/static/d3/barchart.d3.js"></script>
+    <script>
+    var data = $data;
+
+    var bchart = new BarChart("#bar", 920, 200);
+
+    bchart.update(data,  {"domain": [0,55]});
+
+  </script>
+</div>

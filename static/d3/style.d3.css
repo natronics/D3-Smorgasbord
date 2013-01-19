@@ -1,0 +1,66 @@
+.chart rect {
+  stroke: none;
+  fill: #8ac;
+  /*fill: #82A1C3;*/
+  /*fill: #bce;*/
+}
+
+.chart .axis path {
+    fill: none;
+    stroke: none;
+}
+
+.chart .y path {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.chart .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.chart circle {
+    stroke: #444;
+    fill: #fff;
+}
+
+.chart .clocknight {
+    stroke: none;
+    fill: #f7f7f7;
+}
+
+.chart .clocknight:hover {
+    fill: #f4f4f4;
+}
+
+.chart .clockface {
+    font:normal normal normal 15px/normal sans-serif;
+}
+
+.chart path {
+    stroke: #fff;
+    fill: #8ac;
+}
+
+.chart path:hover {
+    fill: #def;
+}
+
+.chart text {
+  font:normal normal normal 10px/normal sans-serif;
+}
+
+.chart rect:hover {
+  fill: #def;
+}
+
+.xaxis_stroke {
+  stroke: #000;
+}
+
+.line-color-one {
+  stroke: #8ac;
+}

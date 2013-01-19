@@ -1,0 +1,12 @@
+$def with (data)
+<div id="clock">
+    <script src="/static/d3/clock.d3.js"></script>
+    <script>
+    var data = $data;
+
+    var clock = new ClockChart('chart clock', 450);
+
+    clock.set_data(data);
+    clock.show('#clock');
+  </script>
+</div>
